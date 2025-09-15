@@ -1,0 +1,89 @@
+#container{
+    /* width: 33vw;
+    height: 40%; */
+    background-color: blueviolet;
+    font-size: 50px;
+}
+
+/* #heading{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 0.5em;
+}
+
+a{
+    font-size: 50px;
+} */
+
+/* a:active{
+    color: green;
+    background-color: yellow;
+} */
+
+/* button{
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid orange;
+    color: orange;
+}
+
+button:active{
+    background-color: orange;
+    color: white;
+}
+
+a:hover{
+    background-color: aqua;
+    color: black;
+} */
+
+/* a:link{
+    background-color: blue;
+    color: white;
+} */
+
+/* love hate */
+/* 
+a:visited{
+    background-color: yellow;
+    color: black;
+}
+
+a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+a:active{
+    background-color: brown;
+    color: red;
+} */
+/* 
+input:focus{
+    background-color: aqua;
+} */
+
+/* .text:first-child{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+} */
+/* .text:last-child{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+} */
+
+/* an + b */
+
+li{
+    padding: 10px;
+}
+
+li:nth-child(2n){ 
+    background-color: rgb(221, 221, 221);
+    /* padding: 10px; */
+    /* color: white; */
+}
