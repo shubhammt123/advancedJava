@@ -1,0 +1,126 @@
+/* #container:before{
+        content: "";
+    width: 72px;
+    height: 2px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+
+#container::after{
+        content: "";
+    width: 72px;
+    height: 2px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+}
+
+#container{
+    text-align: center;
+} */
+
+/* ::selection{
+    background-color: black;
+    color: aqua;
+} */
+/* 
+input{
+    background-color: yellow;
+    color: brown;
+}
+
+input::placeholder{
+    color: brown;
+} */
+
+/* p::first-letter{
+    font-size: 30px;
+    color: red;
+} */
+/* 
+p::first-line{
+    background-color: blueviolet;
+    color: white;
+} */
+
+/* #container{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    transform: skewY(30deg);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    transform-origin: bottom right;
+    transition: 2s;
+    transform-origin: bottom right;
+} */
+
+/* #container:hover{
+    transform: rotate(1800deg);
+    background-color: blueviolet;
+    border-radius: 50%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid beige;
+    border-radius: 50%;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    animation: spinner 2s linear infinite;
+    border-radius: 50%;
+    /* transition: 1s ease-in-out; */
+    transform-origin: 150px 150px;
+}
+
+/* #container:hover #box{
+    transform: translate(300px,300px);
+} */
+
+
+/* @keyframes spinner {
+    0%,100%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(300px,0);
+    }
+    50%{
+        transform: translate(300px,300px);
+    }
+    75%{
+        transform: translate(0,300px);
+    }
+} */
+
+@keyframes spinner {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
